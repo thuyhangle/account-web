@@ -27,6 +27,9 @@ namespace AccountWebApplication
         }
         protected void btn3Clicked(object sender, EventArgs e)
         {
+            Person person = Person.Instance;
+            person.Name = name.Text;
+            person.Email = email.Text;
             Response.Redirect("Page3.aspx");
         }
     }

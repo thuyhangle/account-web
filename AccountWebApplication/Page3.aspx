@@ -12,13 +12,13 @@
         <h1>Page3</h1>
         <asp:Label runat="server">Singleton</asp:Label>
         <div class="form-group">
-            <label for="outputName">Name:</label>
-            <asp:TextBox ID="outputName" CssClass="form-control" runat="server"></asp:TextBox>
+            <label for="personName">Name:</label>
+            <asp:TextBox ID="personName" CssClass="form-control" runat="server"></asp:TextBox>
         </div>
         <br />
         <div class="form-group">
-            <label for="outputEmail">Email:</label>
-            <asp:TextBox ID="outputEmail" CssClass="form-control" runat="server"></asp:TextBox>
+            <label for="personEmail">Email:</label>
+            <asp:TextBox ID="personEmail" CssClass="form-control" runat="server"></asp:TextBox>
         </div>
     </div>
     </form>

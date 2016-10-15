@@ -147,6 +147,7 @@
     <Compile Include="Page3.aspx.designer.cs">
       <DependentUpon>Page3.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

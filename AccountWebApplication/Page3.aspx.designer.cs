@@ -22,21 +22,21 @@ namespace AccountWebApplication {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// outputName control.
+        /// personName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox outputName;
+        protected global::System.Web.UI.WebControls.TextBox personName;
         
         /// <summary>
-        /// outputEmail control.
+        /// personEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox outputEmail;
+        protected global::System.Web.UI.WebControls.TextBox personEmail;
     }
 }

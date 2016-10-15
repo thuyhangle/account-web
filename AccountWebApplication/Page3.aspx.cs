@@ -11,7 +11,9 @@ namespace AccountWebApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Person person = Person.Instance;
+            personName.Text = person.Name;
+            personEmail.Text = person.Email;
         }
     }
 }
