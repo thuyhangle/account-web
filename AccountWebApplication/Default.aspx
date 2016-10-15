@@ -25,10 +25,10 @@
             <asp:Button runat ="server" Text="Open Page 1" OnClick="btn1Clicked"/>
             <br />
             <br />
-            <asp:Button runat ="server" Text="Open Page 2"/>
+            <asp:Button runat ="server" Text="Open Page 2" OnClick="btn2Clicked"/>
             <br />
             <br />
-            <asp:Button runat ="server" Text="Open Page 3"/>
+            <asp:Button runat ="server" Text="Open Page 3" OnClick="btn3Clicked"/>
         </div>
     </form>
 </body>

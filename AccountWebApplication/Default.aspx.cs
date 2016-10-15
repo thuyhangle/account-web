@@ -19,5 +19,15 @@ namespace AccountWebApplication
             Session["email"] = email.Text;
             Response.Redirect("Page1.aspx");
         }
+        protected void btn2Clicked(object sender, EventArgs e)
+        {
+            string strName = name.Text;
+            string strEmail = email.Text;
+            Response.Redirect("Page2.aspx?name=" + strName + "&email=" + strEmail);
+        }
+        protected void btn3Clicked(object sender, EventArgs e)
+        {
+            Response.Redirect("Page3.aspx");
+        }
     }
 }
