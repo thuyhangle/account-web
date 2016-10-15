@@ -16,13 +16,17 @@
                 <label for="name">Your name:</label>
                 <asp:TextBox ID="name" CssClass="form-control" runat="server"></asp:TextBox>
             </div>
+            <br />
             <div class="form-group">
-                <label for="name">Your email:</label>
+                <label for="email">Your email:</label>
                 <asp:TextBox ID="email" CssClass="form-control" runat="server"></asp:TextBox>
             </div>
-            <asp:Button runat ="server" Text="Open Page 1"/>
+            <br />
+            <asp:Button runat ="server" Text="Open Page 1" OnClick="btn1Clicked"/>
+            <br />
             <br />
             <asp:Button runat ="server" Text="Open Page 2"/>
+            <br />
             <br />
             <asp:Button runat ="server" Text="Open Page 3"/>
         </div>

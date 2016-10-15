@@ -7,17 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace AccountWebApplication
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Page1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
-        protected void btn1Clicked(object sender, EventArgs e)
-        {
-            Session["username"] = name.Text;
-            Session["email"] = email.Text;
-            Response.Redirect("Page1.aspx");
+            outputName.Text = Session["username"].ToString();
+            outputEmail.Text = Session["email"].ToString();
         }
     }
 }
